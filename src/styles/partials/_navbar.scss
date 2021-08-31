@@ -1,0 +1,18 @@
+.navbar {
+    padding: 1rem 3rem;
+    background-color: rgb(251, 247, 237);
+
+    .navbar-item, .navbar-link {
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: bolder;
+    }
+    .shopify-logo {
+        margin-right: 1rem;
+    }
+    .button {
+        background-color: #058581;
+        strong {
+            color: white;
+        }
+    }
+}

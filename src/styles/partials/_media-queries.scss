@@ -1,0 +1,37 @@
+
+/* MEDIA SCREEN SMALLER THAN 1200PX */
+
+@media screen and (max-width: 1200px) {
+    #landing-col {
+        flex-direction: column;
+        margin-top: 3rem;
+        #landing-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            max-width: 75%;
+        }
+    }
+
+    .gallery-col {
+        .gallery-image {
+            width: 200px;
+        }
+        .gallery-caption {
+            align-self: inherit;
+        }
+    }
+
+
+    #section-two-bottom-content {
+        flex-direction: column;
+        .content-mini {
+            width: 300px;
+        }
+    }
+
+    .section-subtitle {
+        flex-direction: column;
+    }
+
+    
+}

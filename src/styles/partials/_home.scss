@@ -1,0 +1,128 @@
+#landing-container {
+    margin-top: 2rem;
+
+    #landing-col {
+        padding: 0;
+        margin: 0;
+    
+        #landing-content-container {
+            max-width: 75%;
+            #landing-title {
+                font-family: 'IBM Plex Sans Arabic', sans-serif;
+                font-size: 3rem;
+                letter-spacing: -1px;
+                line-height: 1.2em;
+                font-weight:bolder;
+                color: rgb(0, 76, 63);
+            }
+            #form-content {
+                display: inline-flex;
+                margin: 1.5rem 0;
+                input {
+                    border: 1px solid black;
+                }
+                .button {
+                    background-color: #058581;
+                    margin: 0 0 0 3rem;
+                    strong {
+                        color: white;
+                    }
+                }
+            }
+            #terms {
+                font-size: 0.75rem;
+            }
+        }
+    }
+}
+
+.section-two {
+    background-color: rgb(0, 76, 63);
+    padding-bottom: 4rem;
+
+    .section-content {
+        margin: 6rem 4rem 3rem 4rem;
+        .section-title {
+            color: white;
+            font-size: 2.5rem;
+        }
+        .section-subtitle {
+            color: white;
+            font-size: 1rem;
+            font-weight: 500;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #gallery-container {
+            margin-top: 4rem;
+
+            .gallery-col {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .gallery-caption {
+                    color: white;
+                    font-family: Helvetica, Arial, sans-serif;
+                    font-weight: bold;
+                    align-self: flex-start;
+                    font-size: 0.9rem;
+                }
+            }
+        }
+
+        #section-two-bottom-content {
+            display: flex;
+            flex-direction: row;
+
+            .content-mini {
+                margin: 1rem 0;
+                margin-right: 1rem;
+                
+                .fas {
+                    margin-bottom: 0.3rem;
+                    color: rgb(193, 240, 208);
+                }
+                .content-mini-title {
+                    font-weight: bolder;
+                    margin: 0.3rem 0;
+                }
+                .content-mini-subtitle {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}
+
+.section-three {
+    background-color: white;
+    .section-three-content {
+        flex-direction: column;
+        height: 20rem;
+        position: relative;
+
+        .section-title {
+            color: black;
+            font-size: 1.5rem;
+        }
+        .section-subtitle {
+            color:grey;
+            margin: 1rem 0;
+        }
+        .button {
+            background-color: #058581;
+            strong {
+                color: white;
+            }
+        }
+        #back-to-top {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            margin: 1rem;
+        }
+    }
+}
