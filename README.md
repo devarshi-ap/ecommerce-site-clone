@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Download the Dependencies
+
+To download the dependencies from the package.json, run `npm install` or `npm i`.
+Then you can run the app in the development mode by running `npm start`.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
